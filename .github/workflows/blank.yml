@@ -11,7 +11,7 @@ permissions:
 env:
   REGISTRY: ghcr.io
   # Adjust 'javierlcastillo' to your GitHub username
-  IMAGE_NAME: ghcr.io/${{ github.repository }}/my-flask-api
+  IMAGE_NAME: ghcr.io/javierlcastillo/my-flask-api
 
 jobs:
   build:
